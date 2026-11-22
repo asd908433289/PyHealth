@@ -345,6 +345,11 @@ PyHealth does not ship any data: you download each dataset from its source and p
      - `PhysioNet <https://physionet.org/content/mimiciii/1.4/>`__
      - No
      - `MIMIC-III demo <https://physionet.org/content/mimiciii-demo/1.4/>`__
+   * - :doc:`SEER cancer registry (adapted breast survival) <datasets/pyhealth.datasets.SEERDataset>`
+     - Restricted / request (SEER Data Use Agreement)
+     - `NCI SEER <https://seer.cancer.gov/data/access.html>`__
+     - No
+     - Local synthetic fixtures only; do not redistribute cases
    * - :doc:`MIMIC-IV (EHR, note, CXR, ED) <datasets/pyhealth.datasets.MIMIC4Dataset>`
      - Credentialed
      - `PhysioNet <https://physionet.org/content/mimiciv/>`__
@@ -617,6 +622,7 @@ Available Datasets
     datasets/pyhealth.datasets.CBISDDSMDataset
     datasets/pyhealth.datasets.MIMIC3Dataset
     datasets/pyhealth.datasets.JichiDRDataset
+    datasets/pyhealth.datasets.SEERDataset
     datasets/pyhealth.datasets.MIMIC4Dataset
     datasets/pyhealth.datasets.LNDbDataset
     datasets/pyhealth.datasets.MIMIC4EHRDataset

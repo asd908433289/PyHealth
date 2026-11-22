@@ -159,3 +159,11 @@ test-resources/meds_demo/
 # Generated Synthea outputs and dataset caches
 .artifacts/
 examples/.artifacts/
+
+# SEER research data and local experiments (must remain outside the repo)
+seer_cases.csv
+seer_breast_*.txt
+seer_breast_*.dic
+pyhealth_cache/
+SEER_OOV_Fix.zip
+SEER_Logistic_Baselines_Patch.zip

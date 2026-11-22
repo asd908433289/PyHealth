@@ -1,0 +1,14 @@
+version: "2025.11"
+
+tables:
+  seer_cases:
+    file_path: seer_cases.csv
+    patient_id: patient_id
+    timestamp: diagnosis_year
+    timestamp_format: "%Y"
+    attributes:
+      - record_id
+      - survival_months
+      - cause_specific_death
+      - feature_tokens
+    join: []

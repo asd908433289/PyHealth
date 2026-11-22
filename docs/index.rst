@@ -244,6 +244,7 @@ Quick Navigation
    api/metrics
    api/medcode
    api/calib
+   seer_survival
    survival_pipeline
 
 
